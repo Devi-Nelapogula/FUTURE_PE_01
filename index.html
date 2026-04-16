@@ -1,163 +1,73 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>UGC Ad Content System</title>
-
-    <!-- CSS -->
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GlowCare Skin Clinic</title>
+  <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
 
-    <!-- HEADER -->
-    <header>
-        <h1>UGC Ad Content System</h1>
-        <p>AI-Powered Marketing Assignment</p>
-    </header>
+  <header class="hero">
+    <div class="container">
+      <h1>GlowCare Skin Clinic</h1>
+      <p>Clear Skin. Real Confidence. Expert Care You Can Trust.</p>
+      <a href="#contact" class="btn">Book Appointment</a>
+    </div>
+  </header>
 
-    <!-- PRODUCT -->
-    <section>
-        <h2>Chosen Product</h2>
-        <div class="card">
-            <p><strong>Product:</strong> Acne Control Face Serum</p>
-            <p><strong>Audience:</strong> Students & Young Adults</p>
-            <p><strong>Problem:</strong> Acne & Low Confidence</p>
-        </div>
-    </section>
+  <section class="section">
+    <div class="container">
+      <h2>Healthy, Glowing Skin Starts Here</h2>
+      <p>Helping people in Hyderabad achieve radiant and healthy skin.</p>
+    </div>
+  </section>
 
-    <!-- OBJECTIVE -->
-    <section>
-        <h2>Objective</h2>
-        <div class="card">
-            Build AI-powered prompts to generate high-converting UGC ads for Instagram Reels, Shorts, and Ads.
-        </div>
-    </section>
+  <section class="section about">
+    <div class="container">
+      <h2>About Us</h2>
+      <p>Expert dermatology care with modern technology and personalized treatments.</p>
+    </div>
+  </section>
 
-    <!-- PROMPTS -->
-    <section>
-        <h2>Prompt System</h2>
+  <section class="section services">
+    <div class="container">
+      <h2>Our Services</h2>
 
-        <div class="card">
-            <h3>Script Generator</h3>
-            <p>Creates ads using: Hook → Problem → Solution → Result → CTA</p>
-        </div>
+      <div class="service-box">
+        <h3>Acne Treatment</h3>
+        <p>Clearer skin with long-term results.</p>
+      </div>
 
-        <div class="card">
-            <h3>Hook Generator</h3>
-            <p>Generates emotional, scroll-stopping hooks</p>
-        </div>
+      <div class="service-box">
+        <h3>Skin Brightening</h3>
+        <p>Radiant and even-toned skin.</p>
+      </div>
 
-        <div class="card">
-            <h3>Platform Adaptation</h3>
-            <p>Optimizes scripts for Instagram Reels & Shorts</p>
-        </div>
-    </section>
+      <div class="service-box">
+        <h3>Anti-Aging Solutions</h3>
+        <p>Younger-looking skin naturally.</p>
+      </div>
 
-    <!-- INTERACTIVE TOOL -->
-    <section>
-        <h2>UGC Generator Tool</h2>
+      <div class="service-box">
+        <h3>Laser Hair Removal</h3>
+        <p>Smooth, hair-free skin.</p>
+      </div>
+    </div>
+  </section>
 
-        <div class="card">
-            <h3>Generate Hook</h3>
-            <button id="hookBtn">Generate Hook</button>
-            <p id="hookOutput"></p>
-            <button id="copyHook">Copy Hook</button>
-        </div>
+  <section class="section cta" id="contact">
+    <div class="container">
+      <h2>Book Your Consultation</h2>
+      <p>Get expert skin care support from trusted professionals.</p>
+      <button onclick="showMessage()" class="btn">Book Appointment</button>
+    </div>
+  </section>
 
-        <div class="card">
-            <h3>Generate Script</h3>
-            <button id="scriptBtn">Generate Script</button>
-            <p id="scriptOutput"></p>
-            <button id="copyScript">Copy Script</button>
-        </div>
-    </section>
+  <footer>
+    <p>© 2026 GlowCare Skin Clinic</p>
+  </footer>
 
-    <!-- HOOKS -->
-    <section>
-        <h2>Hooks</h2>
-        <div class="grid">
-            <div class="card">I stopped using expensive skincare for this…</div>
-            <div class="card">My acne was ruining my confidence</div>
-            <div class="card">This cleared my skin in 2 weeks</div>
-            <div class="card">Tried everything… THIS worked</div>
-            <div class="card">POV: Your skin finally clears</div>
-            <div class="card">Not sponsored… just real results</div>
-            <div class="card">I was insecure… not anymore</div>
-            <div class="card">This is why your acne isn’t going away</div>
-            <div class="card">Clear skin = confidence</div>
-        </div>
-    </section>
-
-    <!-- SCRIPTS -->
-    <section>
-        <h2>UGC Ad Scripts</h2>
-
-        <div class="card">
-            <h3>Script 1</h3>
-            <p>
-                I’ve been struggling with acne for 2 years...<br>
-                Tried everything.<br>
-                Then I found this serum.<br>
-                In 2 weeks, my skin improved.<br>
-                No breakouts. More confidence.<br>
-                Try it once.
-            </p>
-        </div>
-
-        <div class="card">
-            <h3>Script 2</h3>
-            <p>
-                POV: You avoid mirrors because of acne...<br>
-                That was me.<br>
-                Now my skin is improving.<br>
-                Confidence is back.<br>
-                Try this serum.
-            </p>
-        </div>
-
-        <div class="card">
-            <h3>Script 3</h3>
-            <p>
-                Acne? Tried everything?<br>
-                Same.<br>
-                This worked.<br>
-                Clear skin. Confidence.<br>
-                Get yours now.
-            </p>
-        </div>
-    </section>
-
-    <!-- CTA -->
-    <section>
-        <h2>Call To Actions</h2>
-        <ul>
-            <li>Try it once — your skin will thank you</li>
-            <li>Link in bio</li>
-            <li>Don’t overthink, just try</li>
-            <li>Start your skincare journey today</li>
-        </ul>
-    </section>
-
-    <!-- CAPTIONS -->
-    <section>
-        <h2>Captions</h2>
-        <ul>
-            <li>Clear skin = real confidence</li>
-            <li>No filters, just results</li>
-            <li>Finally found what works</li>
-            <li>Your skin deserves this</li>
-        </ul>
-    </section>
-
-    <!-- FOOTER -->
-    <footer>
-        <p>Created by N. Naga Durga Devi</p>
-    </footer>
-
-    <!-- JS -->
-    <script src="script.js"></script>
-
+  <script src="script.js"></script>
 </body>
 </html>
