@@ -1,107 +1,99 @@
-# 🚀 UGC Ad Content System (AI-Powered)
+# AI Website Copy Framework for Alika The Salon
 
-## 📌 Overview
-This project demonstrates how AI can be used to generate **high-converting UGC (User Generated Content) ad scripts** similar to those created by real marketing agencies.
+This project demonstrates how Prompt Engineering and AI tools can generate professional, conversion-focused website copy for a local business.
 
-UGC ads are designed to feel **real, relatable, and human**, making them highly effective for platforms like Instagram Reels, YouTube Shorts, and paid ads.
-
----
-
-## 🎯 Objective
-To build a reusable **AI prompt system** that can:
-
-- Generate short UGC-style ad scripts
-- Create multiple scroll-stopping hooks
-- Follow proven frameworks (Hook → Problem → Solution → CTA)
-- Adapt tone for different platforms
-- Produce conversion-focused content
+The selected business for this project is **Alika The Salon, Vijayawada**, a premium unisex salon offering hair, beauty, bridal, and grooming services.
 
 ---
 
-## 🏷️ Chosen Product
-**Acne Control Face Serum (D2C Brand)**  
+# Project Objective
 
-**Target Audience:** Students & Young Adults  
-**Problem:** Acne, skin issues, and low confidence  
+Many local businesses struggle with:
 
----
+- Unclear website copy
+- Weak value propositions
+- Generic content
+- Poor calls-to-action
 
-## 🧠 Prompt System
+This project solves those problems by creating a reusable prompt system that generates:
 
-### 🔹 1. Script Generator Prompt
-Generates UGC-style ad scripts using a proven structure:
-Hook → Problem → Solution → Result → CTA
+- Homepage copy
+- Services page content
+- Persuasive CTA sections
+- Tone variations for different business styles
 
-### 🔹 2. Hook Generator Prompt
-Creates emotional, curiosity-driven hooks to stop scrolling.
-
-### 🔹 3. Platform Adaptation Prompt
-Optimizes scripts for Instagram Reels and Shorts with fast-paced tone.
+The final content is designed to be ready for a real business website.
 
 ---
 
-## 🔥 Hooks (Examples)
-- I stopped using expensive skincare for this…
-- My acne was ruining my confidence
-- This cleared my skin in 2 weeks
-- Tried everything… THIS worked
-- POV: Your skin finally clears
-- Not sponsored… just real results
+# Business Chosen
+
+**Business Name:** Alika The Salon  
+**Location:** Vijayawada  
+**Business Type:** Unisex Salon & Beauty Studio
+
+### Services Offered
+- Haircuts & Styling
+- Hair Spa & Keratin
+- Facials & Skin Care
+- Bridal Makeup
+- Waxing, Manicure & Pedicure
+
+### Target Audience
+- Working professionals
+- College students
+- Brides-to-be
+- Families
 
 ---
 
-## 🎬 UGC Ad Scripts
+# Tools Used
 
-### Script 1 (Problem-Solution)
-I’ve been struggling with acne for 2 years...  
-Tried everything.  
-Then I found this serum.  
-In 2 weeks, my skin improved.  
-No breakouts. More confidence.  
-Try it once.
+- ChatGPT
+- Claude
+- Google Gemini
+- Lovable AI
+- Framer AI
 
 ---
 
-### Script 2 (Relatable Story)
-POV: You avoid mirrors because of acne...  
-That was me.  
-Now my skin is improving.  
-Confidence is back.  
-Try this serum.
+# Prompt Framework
+
+The project uses four structured prompts:
+
+1. Homepage Copy Prompt
+2. Services Page Prompt
+3. CTA Prompt
+4. Tone Adaptation Prompt
+
+Each prompt includes:
+- Business type
+- Target audience
+- Services
+- Location
+- Desired tone
+- Output format
 
 ---
 
-### Script 3 (Fast Reel Style)
-Acne? Tried everything?  
-Same.  
-This worked.  
-Clear skin. Confidence.  
-Get yours now.
+# Files Included
 
----
-
-## 📢 Call To Actions
-- Try it once — your skin will thank you
-- Link in bio
-- Don’t overthink, just try
-- Start your skincare journey today
-
----
-
-## 📝 Captions
-- Clear skin = real confidence
-- No filters, just results
-- Finally found what works
-- Your skin deserves this
-
----
-
-## 🛠️ Tech Stack
-- HTML
-- CSS
-- JavaScript
-- AI Prompt Engineering (ChatGPT)
-
----
-
-## 📁 Project Structure
+```text
+project/
+│
+├── index.html
+├── style.css
+├── script.js
+├── README.md
+│
+├── prompts/
+│   ├── homepage-prompt.md
+│   ├── services-prompt.md
+│   ├── cta-prompt.md
+│   └── tone-prompt.md
+│
+└── outputs/
+    ├── homepage-copy.md
+    ├── services-copy.md
+    ├── cta-copy.md
+    └── tone-variations.md
