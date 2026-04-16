@@ -1,10 +1,138 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>GlowCare Skin Clinic</title>
-  <link rel="stylesheet" href="style.css">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f4f8fb;
+      color: #222;
+      line-height: 1.6;
+    }
+
+    .container {
+      width: 90%;
+      max-width: 1100px;
+      margin: auto;
+    }
+
+    .hero {
+      background: linear-gradient(to right, #0f4c81, #3aa6b9);
+      color: white;
+      text-align: center;
+      padding: 80px 20px;
+    }
+
+    .hero h1 {
+      font-size: 48px;
+      margin-bottom: 15px;
+    }
+
+    .hero p {
+      font-size: 20px;
+      margin-bottom: 25px;
+    }
+
+    .btn {
+      display: inline-block;
+      background-color: white;
+      color: #0f4c81;
+      padding: 12px 24px;
+      text-decoration: none;
+      border: none;
+      border-radius: 6px;
+      font-size: 16px;
+      cursor: pointer;
+      font-weight: bold;
+    }
+
+    .btn:hover {
+      background-color: #e6f0f5;
+    }
+
+    .section {
+      padding: 60px 20px;
+    }
+
+    .section h2 {
+      font-size: 34px;
+      margin-bottom: 20px;
+      color: #0f4c81;
+      text-align: center;
+    }
+
+    .section p {
+      text-align: center;
+      font-size: 18px;
+    }
+
+    .services {
+      background-color: #ffffff;
+    }
+
+    .service-box {
+      background: #eaf4f8;
+      margin: 20px auto;
+      padding: 25px;
+      border-radius: 10px;
+      max-width: 700px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+    }
+
+    .service-box h3 {
+      color: #0f4c81;
+      margin-bottom: 10px;
+      text-align: center;
+    }
+
+    .service-box p {
+      text-align: center;
+    }
+
+    .cta {
+      background: #0f4c81;
+      color: white;
+      text-align: center;
+    }
+
+    .cta h2 {
+      color: white;
+    }
+
+    .cta p {
+      margin-bottom: 20px;
+    }
+
+    footer {
+      background: #082c4a;
+      color: white;
+      text-align: center;
+      padding: 20px;
+    }
+
+    @media (max-width: 768px) {
+      .hero h1 {
+        font-size: 34px;
+      }
+
+      .hero p,
+      .section p {
+        font-size: 16px;
+      }
+
+      .section h2 {
+        font-size: 28px;
+      }
+    }
+  </style>
 </head>
 <body>
 
@@ -19,14 +147,14 @@
   <section class="section">
     <div class="container">
       <h2>Healthy, Glowing Skin Starts Here</h2>
-      <p>Helping people in Hyderabad achieve radiant and healthy skin.</p>
+      <p>Helping people in Hyderabad achieve radiant and healthy skin with expert care and personalized treatments.</p>
     </div>
   </section>
 
-  <section class="section about">
+  <section class="section">
     <div class="container">
       <h2>About Us</h2>
-      <p>Expert dermatology care with modern technology and personalized treatments.</p>
+      <p>GlowCare Skin Clinic provides expert dermatology care with modern technology, trusted treatments, and a patient-first approach.</p>
     </div>
   </section>
 
@@ -36,22 +164,22 @@
 
       <div class="service-box">
         <h3>Acne Treatment</h3>
-        <p>Clearer skin with long-term results.</p>
+        <p>Clearer skin with long-term results and expert skin guidance.</p>
       </div>
 
       <div class="service-box">
         <h3>Skin Brightening</h3>
-        <p>Radiant and even-toned skin.</p>
+        <p>Radiant, healthy, and even-toned skin with safe treatment options.</p>
       </div>
 
       <div class="service-box">
         <h3>Anti-Aging Solutions</h3>
-        <p>Younger-looking skin naturally.</p>
+        <p>Professional care to maintain youthful, fresh, and healthy-looking skin.</p>
       </div>
 
       <div class="service-box">
         <h3>Laser Hair Removal</h3>
-        <p>Smooth, hair-free skin.</p>
+        <p>Smooth, hair-free skin with advanced and comfortable procedures.</p>
       </div>
     </div>
   </section>
@@ -59,15 +187,20 @@
   <section class="section cta" id="contact">
     <div class="container">
       <h2>Book Your Consultation</h2>
-      <p>Get expert skin care support from trusted professionals.</p>
-      <button onclick="showMessage()" class="btn">Book Appointment</button>
+      <p>Take the first step toward healthier skin with trusted specialists.</p>
+      <button class="btn" onclick="showMessage()">Book Appointment</button>
     </div>
   </section>
 
   <footer>
-    <p>© 2026 GlowCare Skin Clinic</p>
+    <p>© 2026 GlowCare Skin Clinic. All Rights Reserved.</p>
   </footer>
 
-  <script src="script.js"></script>
+  <script>
+    function showMessage() {
+      alert("Thank you! Your appointment request has been submitted.");
+    }
+  </script>
+
 </body>
 </html>
